@@ -1,0 +1,4 @@
+store_name,store_address,book_name,pages,author_name,price
+Book Haven,"12 Tahrir St, Cairo",Clean Code,464,Robert C. Martin,450
+Readers Corner,"5 Abbas El Akkad St, Nasr City",The Pragmatic Programmer,352,Andrew Hunt,500
+Knowledge Hub,"20 Alexandria Rd, Giza",Design Patterns,395,Erich Gamma,600

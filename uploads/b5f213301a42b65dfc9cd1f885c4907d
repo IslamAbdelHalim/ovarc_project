@@ -1,0 +1,21 @@
+store_name,store_address,book_name,pages,author_name,price
+Book Haven,"12 Tahrir St, Cairo",Clean Code,464,Robert C. Martin,450
+Book Haven,"12 Tahrir St, Cairo",Clean Architecture,432,Robert C. Martin,480
+Readers Corner,"5 Abbas El Akkad St, Nasr City",The Pragmatic Programmer,352,Andrew Hunt,500
+Readers Corner,"5 Abbas El Akkad St, Nasr City",Pragmatic Thinking and Learning,288,Andrew Hunt,420
+Knowledge Hub,"20 Alexandria Rd, Giza",Design Patterns,395,Erich Gamma,600
+Knowledge Hub,"20 Alexandria Rd, Giza",Refactoring,448,Martin Fowler,550
+Tech Books,"10 Smart Village, Giza",You Don't Know JS,278,Kyle Simpson,300
+Tech Books,"10 Smart Village, Giza",Effective JavaScript,240,David Herman,320
+Code World,"18 Ramses St, Cairo",Introduction to Algorithms,1312,Thomas H. Cormen,900
+Code World,"18 Ramses St, Cairo",Algorithms,992,Robert Sedgewick,750
+Dev Store,7 October City,JavaScript: The Good Parts,176,Douglas Crockford,280
+Dev Store,7 October City,Eloquent JavaScript,472,Marijn Haverbeke,350
+Software House,New Cairo,Domain-Driven Design,560,Eric Evans,650
+Software House,New Cairo,Patterns of Enterprise Application Architecture,533,Martin Fowler,620
+Programming Hub,"Dokki, Giza",Head First Design Patterns,694,Eric Freeman,480
+Programming Hub,"Dokki, Giza",Head First Java,720,Kathy Sierra,520
+IT Library,"Maadi, Cairo",The Mythical Man-Month,322,Frederick P. Brooks,400
+IT Library,"Maadi, Cairo",Peopleware,264,Tom DeMarco,380
+Digital Shelf,"Heliopolis, Cairo",Soft Skills,504,John Sonmez,450
+Digital Shelf,"Heliopolis, Cairo",Code Complete,960,Steve McConnell,700

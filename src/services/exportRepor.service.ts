@@ -52,17 +52,13 @@ export const exportReport = async (storeId: number, res: Response) => {
     const date = new Date().toISOString().split('T')[0];
     const fileName = `${store.name}-Report-${date}.pdf`;
 
-    // Set Headers for Download
     res.setHeader('Content-Type', 'application/pdf');
     res.setHeader('Content-Disposition', `attachment; filename=${fileName}`);
 
     doc.pipe(res);
-
-    // PDF Content
     doc.fontSize(20).text(`Inventory Report: ${store.name}`, { align: 'center' });
     doc.fontSize(12).text(`Date: ${date}`, { align: 'center' }).moveDown();
 
-    // Section: Top 5 Priciest Books
     doc.fontSize(16).text('Top 5 Priciest Books', { underline: true }).moveDown(0.5);
     books.forEach((book: any, index) => {
         const price = book.Stores[0].StoreBook.price;
@@ -71,7 +67,6 @@ export const exportReport = async (storeId: number, res: Response) => {
 
     doc.moveDown();
 
-    // Section: Top 5 Prolific Authors
     doc.fontSize(16).text('Top 5 Prolific Authors', { underline: true }).moveDown(0.5);
     authers.forEach((author: any, index) => {
         const count = author.bookCount;

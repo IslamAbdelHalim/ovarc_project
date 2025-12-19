@@ -14,7 +14,7 @@ export async function connectToDB(): Promise<void> {
 
         await sequelize.authenticate();
 
-        await sequelize.sync({ force: true });
+        await sequelize.sync({ alter: true });
 
         console.log("CONNECT TO DB");
     } catch (error) {

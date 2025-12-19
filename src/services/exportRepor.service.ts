@@ -61,7 +61,7 @@ export const exportReport = async (storeId: number, res: Response) => {
 
     doc.fontSize(16).text('Top 5 Priciest Books', { underline: true }).moveDown(0.5);
     books.forEach((book: any, index) => {
-        const price = book.Stores[0].StoreBook.price;
+        const price = book.Store_Books[0].price;
         doc.fontSize(12).text(`${index + 1}. ${book.name} - $${price}`);
     });
 
